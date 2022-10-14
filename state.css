@@ -1,0 +1,32 @@
+
+
+/* List with bullets */
+.list-bullets {
+    list-style: none;
+}
+
+.list-bullets li {
+    display: flex;
+    align-items: center;
+}
+
+.list-bullets li::before {
+    content: '';
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #5784d7;
+    border: 2px solid #8fb3f5;
+    display: block;
+    margin-right: 1rem;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #6190e8;
+    background-image: linear-gradient(to right, #FF9933 0%, #138808 100%);
+}
+
+li {
+    font-style: italic;
+}

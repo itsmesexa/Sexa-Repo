@@ -1,0 +1,123 @@
+body {background-color: rgb(255, 255, 255);}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#line{
+    color: rgb(255, 124, 2); 
+    text-emphasis: none; 
+    font-size: 20px;
+}
+.topnav {
+    overflow: hidden;
+    background-color: rgb(248, 135, 6);
+  }
+  
+.topnav a {
+    float: left;
+    color: #0a0707;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: solid;
+    font-size: 20px;
+  }
+  
+.topnav a:hover {
+    background-color: rgb(19, 18, 18);
+    color: rgb(255, 255, 255);
+    transition: background-color 1s linear;
+  }
+  
+.topnav a.active {
+    background-color:rgb(19, 18, 18);
+    color: rgb(255, 255, 255);
+  }
+* {
+  box-sizing: content-box;
+}
+body {
+    font-family: Verdana, sans-serif;
+  }
+
+.mySlides {
+    display: none;
+  }
+  
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+/* The dots/bullets/indicators */
+.dot {
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color:rgb(255, 124, 2);
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+.india{
+    font-size: 16px;
+    line-height: 1.71;
+    text-align: justify;
+    color: #000000;
+    padding: 5px 40px 5px 40px;
+    border: 1px solid #fff;
+    background-color: #fff;
+}
+
+.head2{
+  color: #189407;
+  margin-left:40px ;
+  margin-bottom: 20px;
+  font-weight: 300;
+  line-height: 1.4;
+}
+
+.img-boat{
+  float: left;
+  display: block;
+  /* width: 100% \9; */
+  /* max-width: 100%; */
+  height: auto;
+  margin: 20px 38px 20px 38px;
+
+}
+
+

@@ -1,0 +1,41 @@
+body {
+    background: #f4f4f4;
+  }
+  
+  .banner {
+    background: #a770ef;
+    background: -webkit-linear-gradient(to right, #FF9933, #138808);
+    background: linear-gradient(to right, #FF9933, #138808);
+  }
+
+
+  .topnav {
+    overflow: hidden;
+    background-color: rgb(248, 135, 6);
+  }
+  
+.topnav a {
+    float: left;
+    color: #0a0707;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: solid;
+    font-size: 20px;
+  }
+  
+.topnav a:hover {
+    background-color: rgb(19, 18, 18);
+    color: rgb(255, 255, 255);
+    transition: background-color 1s linear;
+  }
+  
+.topnav a.active {
+    background-color:rgb(19, 18, 18);
+    color: rgb(255, 255, 255);
+  }
+
+  .active {
+    background-color:rgb(255, 124, 2);
+  }
+  
+  

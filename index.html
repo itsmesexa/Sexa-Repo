@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>नया हिंदुस्तान</title>
+   <!-- Bootstrap CSS -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+   integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="index.css">
+
+  <style>
+
+    
+    .list-inline-item a {
+      color: #f9fafb;
+    }
+
+    .col-lg-4 {
+      flex: 0 0 auto;
+      width: 100%;
+
+    }
+
+    .mt-4 {
+      margin-bottom: 0;
+      margin-top: -2rem !important;
+    }
+
+    .py-4 {
+      padding-top: 0rem !important;
+      padding-bottom: 0rem !important;
+    }
+  </style>
+</head>
+
+<body>
+  <span><img src="logo.png" style="height: 75px; margin-top: 10px;
+    "></span>
+  <div id="line">
+    <marquee behavior="scroll" direction="left"> जन गण मन अधिनायक जय हे
+      भारत भाग्य विधाता !
+      पुंजाब सिंध गुजरात मराठा
+      द्रविड़ उत्कल बंग
+      विंध्य हिमांचल यमुना गंगा
+      उच्छल जलधि तरंग
+      <span style="color: rgb(13, 194, 13);">
+        तव शुभ नामे जागे,
+        तव शुभ आशिष मांगे,
+        गाये तव जय गाथा।
+        जन गण मंगलदायक जय हे
+        भारत भाग्य विधाता !
+        जय हे, जय हे, जय हे,
+        जय जय जय जय हे।।
+      </span>
+    </marquee>
+
+    <div class="topnav">
+      <a class="active" href="index.html">Home</a>
+      <a href="destination.html" target="_blank">Destination</a>
+      <a href="explore.html" target="_blank">Explore</a>
+      <a href="aboutus.html" target="_blank">About Us</a>
+      <a href="National Anthem.mp4" target="_blank">National Anthem</a>
+    </div>
+    <br>
+    <div class="slideshow-container">
+
+      <div class="mySlides fade">
+        <img src="photo1.jpg" style="width:80%">
+      </div>
+
+      <div class="mySlides fade">
+        <img src="photo2.jpg" style="width:80%">
+      </div>
+
+      <div class="mySlides fade">
+        <img src="photo3.jpg" style="width:80%">
+      </div>
+      <div class="mySlides fade">
+        <img src="photo4.jpg" style="width:80%">
+      </div>
+      <div class="mySlides fade">
+        <img src="photo5.jpg" style="width:80%">
+      </div>
+
+    </div>
+    <br>
+
+    <div style="text-align:center">
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+
+    <script>
+      var slideIndex = 0;
+      showSlides();
+
+      function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) { slideIndex = 1 }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+        setTimeout(showSlides, 1500); // Change image every 1.5 seconds
+      }
+    </script>
+
+    <p class="india">India is one of the oldest civilizations in the world with a kaleidoscopic variety and rich
+      cultural heritage. It has achieved all-round socio-economic progress during the last 65 years of its Independence.
+      India has become self-sufficient in agricultural production and is now one of the top industrialized countries in
+      the world and one of the few nations to have gone into outer space to conquer nature for the benefit of the
+      people. It covers an area of 32, 87,263 sq. km, extending from the snow-covered Himalayan heights to the tropical
+      rain forests of the south. As the 7th largest country in the world, India stands apart from the rest of Asia,
+      marked off as it is by mountains and the sea, which give the country a distinct geographical entity. Bounded by
+      the Great Himalayas in the north, it stretches southwards and at the Tropic of Cancer, tapers off into the Indian
+      Ocean between the Bay of Bengal on the east and the Arabian Sea on the west. As you travel, India offers a range
+      of vast tourism choices, diverse in land and nature, people, tribes, cuisine, faiths, dance forms, music, arts,
+      crafts, adventure, sport, spirituality, history; even these vary as you journey from one state to another. As a
+      country, India has achieved all-round socio-economic progress in the last 70 years of independence. The change is
+      clearly visible in the Tier I and Tier II cities. However, the fascinating aspect lies in the stark difference as
+      you travel through the new and old parts of its cities. From world-class airports and hotels, luxurious shopping
+      malls, restaurants, pubs and cafes to overcrowded streets and alleyways, in the same cities, filled with thousands
+      of little shops offering every possible modern and ethnic product and native street food is a fascinating
+      experience.
+
+    </p>
+
+    <h2 style="text-align: left; margin-left: 38px;margin-right: 38px;">
+      <span class="history">HISTORY OF INDIA</span>
+    </h2>
+    <p class="india">
+      The Indian Peninsula stands apart from the rest of Asia, bordered as it is by mountains and the sea, which gives
+      the country a distinct geographical entity. Based on the phases of evolution of the country and its people the
+      history of India can be categorised in three major categories:
+
+    </p>
+
+    <span class="head2">
+      <b>
+        Ancient History
+      </b>
+    </span>
+    <p class="india">
+      India's history and culture is dynamic, spanning back to the beginning of human civilization. It begins with a
+      mysterious culture along the Indus River and in farming communities in the southern lands of India. The history of
+      India is punctuated by constant integration of migrating people with the diverse cultures that surround India.
+      Available evidence suggests that the use of iron, copper and other metals was widely prevalent in the Indian
+      sub-continent at a fairly early period, which is indicative of the progress that this part of the world had made.
+      By the end of the fourth millennium BC, India had emerged as a region of highly developed civilization.
+    </p>
+    <span class="head2">
+      <b>
+        Medieval History
+      </b>
+    </span>
+    <p class="india">
+      For a period that has come to be so strongly associated with the Islamic influence and rule in India, Medieval
+      Indian history went for almost three whole centuries under the so-called indigenous rulers, that included the
+      Chalukyas, the Pallavas, the Pandyas, the Rashtrakutas, the Muslims rulers and finally the Mughal Empire. The most
+      important dynasty to emerge in the middle of the 9th century was that of the Cholas.
+
+    </p>
+    <span class="head2">
+      <b>
+        Freedom Struggle
+      </b>
+    </span>
+    <p class="india">
+      In ancient times, people from all over the world were keen to come to India. ThePersians followed by the Iranians
+      and Parsis immigrated to India. Then came theMoghuls and they too settled down permanently in India. Chengis Khan,
+      the Mongolian, invaded and looted India many times. Alexander the Great too, came to conquer India but went back
+      after a battle with Porus. He-en Tsang from China came in pursuit of knowledge and to visit the ancient Indian
+      universities of Nalanda and Takshila. Columbus wanted to come to India, but instead landed on the shores of
+      America. Vasco da Gama from Portugal came to trade his country's goods in return for Indian spices. The French
+      came and established their colonies in India.
+
+      Lastly, the Britishers came and ruled over India for nearly 200 years. After the battle of Plassey in 1757, the
+      British achieved political power in India. And their paramountcy was established during the tenure of Lord
+      Dalhousie, who became the Governor- General in 1848. He annexed Punjab, Peshawar and the Pathan tribes inthe
+      north-west of India. And by 1856, the British conquest and its authority were firmly established. And while the
+      British power gained its heights during the middle of the 19th century, the discontent of the local rulers, the
+      peasantry, the intellectuals, common masses as also of the soldiers who became unemployed due to the disbanding of
+      the armies of various states that were annexed by the British, became widespread. This soon broke out into a
+      revolt which assumed the dimensions of the 1857 Mutiny.
+    </p>
+
+    <h2 style="text-align: left; margin-left: 38px;margin-right: 38px;">
+      <span class="history">STATES OF INDIA</span>
+    </h2>
+    <img src="states.PNG" alt="STATES OF INDIA" style="padding-bottom: 25px;">
+
+    <span class="head2">
+      <b>UNION TERRITORIES</b>
+    </span>
+    <img src="uniont.PNG" alt="UNION TERRITORIES" style="padding-top: 20px; padding-bottom: 20px;">
+    <!-- <h2 style="text-align: left; margin-left: 38px;margin-right: 38px;">
+      <span class="history">FACTS ABOUT INDIA</span>
+    </h2>
+    <img src="facts-about-india.jpg" class="img-boat"> -->
+
+    <div id="page-content">
+      <div class="container text-center">
+      </div>
+    </div>
+    <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+      <div class="container text-center">
+        <p style="padding-top:15px;">NAYA HINDUSTAN</p>
+        <div class="col-lg-4 col-md-6 mb-4 mb-lg-0"><img src="img/logo.png" alt="" width="180" class="mb-3">
+          <ul class="list-inline mt-4">
+            <li class="list-inline-item"><a href="#" target="_blank" title="twitter"><i class="fa fa-twitter"></i></a>
+            </li>
+            <li class="list-inline-item"><a href="#" target="_blank" title="facebook"><i class="fa fa-facebook"></i></a>
+            </li>
+            <li class="list-inline-item"><a href="#" target="_blank" title="instagram"><i class="fa fa-instagram"></i></a>
+            </li>
+            <li class="list-inline-item"><a href="#" target="_blank" title="pinterest"><i class="fa fa-pinterest"></i></a>
+            </li>
+            <li class="list-inline-item"><a href="#" target="_blank" title="vimeo"><i class="fa fa-vimeo"></i></a></li>
+            <p class="text-muted mb-0 py-2">© 2021 Naya Hindustan All rights reserved.</p>
+          </ul>
+        </div>
+  
+      </div>
+    </footer>
+  
+</body>
+
+</html>
